@@ -1,6 +1,6 @@
 #include "widget.h"
 #include "ui_widget.h"
-
+//ouioui
 Widget::Widget(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::Widget)
@@ -46,7 +46,7 @@ void Widget::on_pushButtonDessiner_clicked()
 
     //Gradiants
     QGraphicsRectItem *  rectGradItem = new
-            QGraphicsRectItem(10,20,300,100);
+    QGraphicsRectItem(10,20,300,100);
     QLinearGradient degrade(0,0,300,100);
     degrade.setColorAt(0,QColor(0,0,0));
     degrade.setColorAt(1,QColor(255,0,0));
